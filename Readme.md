@@ -1,4 +1,4 @@
-*** Automatic Login for PowerSchool (SDUSD)
+### Automatic Login for PowerSchool (SDUSD)
 
 Automatically login to PowerSchool when the page is brought up in Chrome.  This will
 save you from having to enter your ID / password every hour when it times out.
@@ -7,7 +7,7 @@ IMPORTANT NOTE: This extension will save your password in the local browser stor
 It is encrypted, but it's easy to decrypt.  This extension should ONLY be used on a
 computer that is used solely by you so as not to compromise your district password.
 
-*** Installation instructions
+### Installation instructions
 
 1. Open Google Chrome
 2. Enter chrome://extensions for the URL
@@ -22,7 +22,7 @@ computer that is used solely by you so as not to compromise your district passwo
 
 You can delete the files when you're finished installing the extension
 
-*** Setup instructions
+### Setup instructions
 
 1. Open Google Chrome
 2. Enter chrome://extensions for the URL
@@ -33,7 +33,7 @@ You can delete the files when you're finished installing the extension
 
 To forget your login information follow Steps 1-5, then click Forget me!
 
-*** Operation
+### Operation
 
 Whenever you go to the PowerSchool teacher login page it will automatically log you in.
 
