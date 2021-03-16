@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PowerSchool Automatic Login Options</title>
+	<style>
+		div {margin-bottom: 10px;}
+		label {margin-right: 10px;}
+		#save {margin-right: 15px;}
+		#forget {float: right;}
+	</style>
+</head>
+<body>
+
+<div>
+	<label for="username">District ID:</label>
+	<input type="text" id="username">
+</div>
+
+<div>
+	<label for="password">Password:</label>
+	<input type="password" id="password" title="For security, your current password will not be displayed">
+</div>
+
+<div id="status"></div>
+
+<div>
+	<button id="save">Save</button>
+	<button id="forget">Forget me!</button>
+</div>
+
+<script src="encrypt-decrypt.js"></script>
+<script src="crypto.js"></script>
+<script src="options.js"></script>
+</body>
+</html>
