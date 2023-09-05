@@ -1,7 +1,7 @@
 {
 	"name": "PowerSchool Login",
 	"version": "1.3",
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"description": "SDUSD Automatic Login to PowerSchool",
 	"permissions": ["storage"],
 	"content_scripts": [
@@ -12,7 +12,6 @@
 		}
 	],
 	"options_ui": {
-		"page": "options.html",
-		"chrome_style": true
+		"page": "options.html"
 	}
 }
