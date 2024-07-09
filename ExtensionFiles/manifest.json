@@ -1,12 +1,12 @@
 {
 	"name": "PowerSchool Login",
-	"version": "1.3",
+	"version": "1.4",
 	"manifest_version": 3,
 	"description": "SDUSD Automatic Login to PowerSchool",
 	"permissions": ["storage"],
 	"content_scripts": [
 		{
-			"matches": ["https://powerschool.sandi.net/teachers/*"],
+			"matches": ["https://adfs19.sandi.net/adfs*"],
 			"js": ["crypto.js","encrypt-decrypt.js","powerSchoolLogin.js"],
 			"run_at": "document_end"
 		}
